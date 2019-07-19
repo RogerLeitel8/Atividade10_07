@@ -1,0 +1,20 @@
+1) Sistema de empréstimo
+Farão um sistema para dar a resposta de de APROVADO ou REPROVADO para um pedido de empréstimo personalizado, exemplo: REPROVADO PELA IDADE, REPROVADO PELO SALÁRIO, etc.
+Regras para aprovar o empréstimo:
+- O solicitante deverá ter entre 25 e 60 anos
+- O salário mínimo do solicitante deverá ser de R$2000,00
+- O valor solicitado de empréstimo não poderá ser maior do que 10 vezes o salário
+receba a IDADE
+se o usuario for >=25 e <=60
+    informe o seu salario
+    se o salario for >= 2000.
+        informe o valor desejado
+        se o valor desejado for =< 10x o salario
+         emprestimo APROVADO
+         
+         se não
+         emprestimo negado pelo valor pedido
+    se não
+    emprestimo negado pelo salario     
+se nao 
+emprestimo negado por causa da idade

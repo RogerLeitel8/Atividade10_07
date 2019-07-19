@@ -1,0 +1,29 @@
+2) Calendário
+Crie um programa que informa o nome do dia da semana baseado em um
+número de 1 à 7. O número deve ser informado como uma variável.
+* Ex: O dia 2 é segunda-feira.
+* Ex: O dia 4 é quarta-feira.
+ declarar que 1 = domingo
+ declarar que 2 = segunda
+ declarar que 3 = terça
+ declarar que 4 = quarta
+ declarar que 5 = quinta
+ declarar que 6 = sexta
+ declarar que 7 = sabado
+
+ se o usuario digitar 1
+  mostra domingo
+se nao se o usuario digitar 2
+ mostar segunda
+se nao se o usuario digitar 3
+    mostrar terça
+se nao se o usuario digitar 4
+    mostrar quarta
+se nao se o usuario digitar 5
+    mostrar quinta
+se nao se o usuario digitar 6
+    mostrar sexta   
+se nao se o usuario digitar 7
+    mostrar sabado  
+se nao
+numero digitado é invalido

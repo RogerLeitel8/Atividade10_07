@@ -1,0 +1,23 @@
+Entrada do clube
+Vamos ajudar um clube com o sistema de ingresso deles:
+- Se o cliente tiver mais de 60 anos, ou for aposentado: ENTRADA GRÁTIS.
+- Se o cliente possuir de 0 à 12 anos: R$10,00 a entrada.
+- Se o cliente possuir de 13 à 17 anos: R$15,00 a entrada.
+- Se o cliente possuir de 18 à 59 anos: R$35,00 a entrada.
+- Se o cliente possuir de R$18 à 59 anos e for estudante: R$17,50 meia entrada.
+
+receber a idade
+receber se a pessoa é aposentada
+se a pessoa é estudante
+
+se a pessoa for aposentada if
+    se a idade for > 0 e <=12
+    paga 10 reais
+        se a idade for >=13 e <=17 if else
+        paga 15
+            se a idade for >=18 e <=59 if else
+            paga 35
+                se a idade for >=18 e <=59 e for estudante if else
+                paga 17,50
+se não else
+entra gratis

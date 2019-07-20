@@ -25,6 +25,7 @@ else if(idade>=18 && idade<=59){
         
         if(aposentado === "SIM"){
             console.log("Entrada Gratis");
+        }
         else{
             console.log("O valor da entrada é R$35:00 reais");
         }
@@ -33,7 +34,3 @@ else if(idade>=18 && idade<=59){
 else{
    console.log('erro de digitação');     
 }
-
-
-
-
